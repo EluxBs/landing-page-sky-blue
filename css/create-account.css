@@ -1,0 +1,773 @@
+*{ 
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #152d97;
+    margin: 0rem;
+}
+
+.form-section-input::placeholder{
+    color: #9599a8e8;
+}
+
+@media only screen and (max-width:425px){
+    
+    body{
+        background-image: url("../img/Lakes-Italy.jpeg");
+    }
+
+    /* INICIO HEADER - INICIO ENCABEZADO*/
+
+    .nav-blue{
+        background-color: #152d97;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .logo-blue img{
+        width: 4rem;
+        padding: .5rem .5rem;
+    }
+
+    .logo-blue a:link{
+        text-decoration: none;
+    }
+
+    .logo-blue a:visited{
+        text-decoration: none;
+    }
+
+    .item-menu-blue{
+        list-style: none;
+    }
+
+    .item-menu-blue a{
+        text-decoration: none;
+    }
+
+    .container-blue{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0rem;
+    }
+
+    .container-blue label{
+        font-size: 3rem;
+        color: aliceblue;
+    }
+
+    .container-blue input{
+        display: none;
+    }
+
+    .menu-blue{
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .item-blue{
+        padding: .5rem;
+        margin: 1rem;
+        background-color: rgba(240, 248, 255, 0.8);
+        border-radius: .5rem;
+    }
+
+    .item-blue a{
+        text-decoration: none;
+        color: #152d97;
+        padding: .3rem 20%;
+    }
+
+    .item-blue a:link{
+        color: #152d97;
+        text-decoration: none;
+    }
+
+    .container-blue input:checked  ~ .menu-blue{
+        display: block;
+        text-transform: uppercase;
+        margin: auto 2rem;
+    }
+
+    /* FIN HEADER - FIN ENCABEZADO*/
+
+    /* INICIO CREATE ACCOUNT - INICIO CREAR CUENTA */
+
+    .form-section-title{
+        display: flex;
+        margin: 1rem 0rem;
+    }
+
+    .form-section-description{
+        font-size: 1.2rem;
+        padding: 0;
+        margin-top: 0.2rem;
+    }
+
+    .form-section{
+        color: #152d97;
+        max-width: 75%;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5rem;
+        background-color: rgba(240, 248, 255, 0.712);
+        border: 1px solid aliceblue;
+        border-radius: 1.5rem;
+    }
+
+    .form-section label{
+        padding-bottom: .7rem;
+        font-size: 1.05rem;
+    }
+
+    .form-section-input{
+        color: #12479A;
+        font-weight: bolder;
+        border: none;
+        border-bottom: solid 1px;
+        background: none;
+        padding: .5rem 0rem;
+        width: 100%;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: medium;
+    }
+    
+    .form-section a{
+        color: #0F619C;
+        font-weight: 500;
+    }
+
+    .form-section-input-checkbox input{
+        vertical-align: middle;
+    }
+
+    .form-section-input-terms{
+        font-size: small;
+        vertical-align: middle;
+    }
+
+    .form-section-buttom{
+        color: aliceblue;
+        border: none;
+        background: none;
+        border-radius: 0.25rem;
+        padding: .5rem 0rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        background-color: #152d97;
+    }
+
+    .form-section-input{
+        color: #12479A;
+        font-weight: bolder;
+        border: none;
+        border-bottom: solid 1px;
+        background: none;
+        padding: .5rem 0rem;
+        width: 100%;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: medium;
+    }
+
+    .form-section-item{
+        text-align: center;
+        color: #12479A;
+        font-weight: 700;
+        padding-top: 2rem;
+    }
+
+    .form-section-article{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 0.6rem;
+    }
+
+    .form-section-article i{
+        margin-top: 0.5rem;
+        align-items: center;
+        font-size: 1.5rem;
+        color: #12479A;
+
+    }
+
+    /* FIN CREATE ACCOUNT - FIN CREAR CUENTA */
+
+    /* INICIO FOOTER - INICIO PIE DE PAGINA*/
+
+    footer{
+        background-color: #152d97;
+        margin-top: 92px;
+        color: aliceblue;
+        font-size: small;
+        text-align: center;
+    }
+
+    .footer-section-1 p{
+        font-weight: 400;
+        padding-top: 0.3rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer-section-2{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .footer-section-2 a{
+        margin: 0.5rem;
+    }
+
+    .footer-section-2 a:link{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .footer-section-2 a:visited{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .footer-section-2 a:active:hover{
+        color: aliceblue;
+        border-bottom: aliceblue solid 1px;
+    }
+
+    /* FIN FOOTER - FIN PIE DE PAGINA*/
+
+}
+
+@media only screen and (min-width:426px) and (max-width:768px){
+
+    body{
+        background-image: url("../img/Sevilla-Andalucia.jpeg");
+    }
+
+    /* INICIO HEADER - INICIO ENCABEZADO*/
+
+    .nav-blue{
+        background-color: #152d97;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .logo-blue img{
+        width: 4rem;
+        padding: .5rem .5rem;
+    }
+
+    .logo-blue a:link{
+        text-decoration: none;
+    }
+
+    .logo-blue a:visited{
+        text-decoration: none;
+    }
+
+    .item-menu-blue{
+        list-style: none;
+    }
+
+    .item-menu-blue a{
+        text-decoration: none;
+    }
+
+    .container-blue{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0rem;
+    }
+
+    .container-blue label{
+        font-size: 3rem;
+        color: aliceblue;
+    }
+
+    .container-blue input{
+        display: none;
+    }
+
+    .menu-blue{
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .item-blue{
+        padding: .5rem;
+        margin: 1rem;
+        background-color: rgba(240, 248, 255, 0.8);
+        border-radius: .5rem;
+    }
+
+    .item-blue a{
+        text-decoration: none;
+        color: #152d97;
+        padding: .3rem 20%;
+    }
+
+    .item-blue a:link{
+        color: #152d97;
+        text-decoration: none;
+    }
+
+    .container-blue input:checked  ~ .menu-blue{
+        display: block;
+        text-transform: uppercase;
+        margin: auto 2rem;
+    }
+    /* FIN HEADER - FIN ENCABEZADO*/
+
+    /* INICIO CREATE ACCOUNT - INICIO CREAR CUENTA */
+
+    .form-section-title{
+        display: flex;
+        margin: 1rem 0rem;
+    }
+
+    .form-section-description{
+        font-size: 1.2rem;
+        padding: 0;
+        margin-top: 0.2rem;
+    }
+
+    .form-section{
+        color: #152d97;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 350px;
+        padding: 1.5rem;
+        background-color: rgba(240, 248, 255, 0.712);
+        border: 1px solid aliceblue;
+        border-radius: 1.5rem;
+    }
+
+    .form-section label{
+        padding-bottom: .7rem;
+        font-size: 1rem;
+    }
+
+    .form-section-input{
+        color: #12479A;
+        font-weight: bolder;
+        border: none;
+        border-bottom: solid 1px;
+        background: none;
+        padding: .5rem 0rem;
+        width: 100%;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: medium;
+    }
+    
+    .form-section a{
+        color: #0F619C;
+        font-weight: 500;
+    }
+
+    .form-section-input-checkbox input{
+        vertical-align: middle;
+    }
+
+    .form-section-input-terms{
+        font-size: small;
+        vertical-align: middle;
+    }
+
+    .form-section-buttom{
+        color: aliceblue;
+        border: none;
+        background: none;
+        border-radius: 0.25rem;
+        padding: .5rem 0rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        background-color: #152d97;
+    }
+
+    .form-section-item{
+        text-align: center;
+        color: #12479A;
+        font-weight: 700;
+        padding-top: 2rem;
+    }
+
+    .form-section-article{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 0.6rem;
+    }
+
+    .form-section-article i{
+        margin-top: 0.5rem;
+        align-items: center;
+        font-size: 1.5rem;
+        color: #12479A;
+    }
+
+    /* FIN CREATE ACCOUNT - FIN CREAR CUENTA */
+
+    /* INICIO FOOTER - INICIO PIE DE PAGINA*/
+
+    footer{
+        background-color: #152d97;
+        margin-top: 92px;
+        color: aliceblue;
+        font-size: small;
+    }
+
+    .footer-section-1 p{
+        font-weight: 400;
+        padding-top: 0.3rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer-section-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .footer-section-2 a:link{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .footer-section-2 a:visited{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .footer-section-2 a:active:hover{
+        color: aliceblue;
+        border-bottom: aliceblue solid 1px;
+    }
+
+    .footer-section-2 a:hover{
+        color: aliceblue;
+    }
+
+    /* FIN FOOTER - FIN PIE DE PAGINA*/
+
+}
+
+@media only screen and (min-width:769px) and (max-width:15000px){
+
+    body{
+        background-image: url("../img/ginebra-suiza.jpeg");
+    }
+
+    /* INICIO HEADER - INICIO ENCABEZADO*/
+
+    .logo-blue img{
+        width: 4rem;
+        padding: .5rem .5rem;
+    }
+    
+    .container-blue{
+        display: flex;
+        justify-content:space-between;
+        background-color: #152d97;
+        border-bottom: aliceblue 1px solid;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .container-blue label{
+        display: none;
+    }
+
+    .container-blue input{
+        display: none;
+    }
+
+    .menu-blue{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem;
+        padding: 0rem;
+        justify-content:flex-end;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-blue li{
+        background-color: rgba(240, 248, 255, 0.369);
+        border-radius: .5rem;
+        padding: .3rem;
+        margin: .5rem;
+    }
+
+    .menu-blue li:last-child{
+        background-color:#637ce9;
+    }
+
+    .menu-blue a{
+        margin: 0.5rem;
+    }
+
+    .menu-blue a:link{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .menu-blue a:visited{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .menu-blue a:active:hover{
+        color: aliceblue;
+        border-bottom: aliceblue solid 1px;
+    }
+
+    /* FIN HEADER - FIN ENCABEZADO*/
+
+
+    /* INICIO CREATE ACCOUNT - INICIO CREAR CUENTA */
+
+    .form-section{
+        color: #152d97;
+        max-width: 375px;
+        margin: 4rem auto;
+        padding: 2rem;
+        background-color: rgba(240, 248, 255, 0.712);
+        border: 1px solid aliceblue;
+        border-radius: 1.5rem;
+    }
+
+    .form-section-title{
+        padding-top: 0rem;
+        margin: 1rem 0rem;
+        color: #152d97;
+        font-size: 1.3rem;
+    }
+
+    .form-section-description{
+        font-size: 1.1rem;
+        margin-top: 0.2rem;
+        color:#152d97;
+    }
+
+    .form-section label{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: .7rem;
+        color:#152d97;
+    }
+
+    .form-section-input{
+        color:#152d97;
+        font-weight: 400;
+        border: none;
+        border-bottom: solid 1px;
+        background: none;
+        padding: .5rem 0rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.7rem;
+        width: 100%;
+        align-items: center;
+        font-size: medium;
+    }
+
+    .form-section a{
+        color: #1375bb;
+        font-weight: 500;
+    }
+
+    .form-section a:hover{
+        color: #152d97;
+    }
+
+    .form-section-icons:link{
+        color: #152d97;
+        text-decoration: none;
+    }
+    
+    .form-section-icons:visited{
+        color: #152d97;
+        text-decoration: none;
+    }
+    
+    .form-section-icons:active:hover{
+        color: #4593d8;
+        font-size: 1.1rem;
+    }
+
+    .form-section-icons i:hover{
+        color: #42a1f4;
+        font-size: 2rem;
+    }
+
+    .form-section-input-checkbox input{
+        vertical-align: middle;
+    }
+
+    .form-section-input-terms{
+        font-size: small;
+        vertical-align: middle;
+    }
+
+    .form-section-input{
+        color: #12479A;
+        font-weight: bolder;
+        border: none;
+        border-bottom: solid 1px;
+        background: none;
+        padding: .5rem 0rem;
+        width: 100%;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: medium;
+    }
+
+    .form-section-buttom{
+        color: aliceblue;
+        border: none;
+        background: none;
+        border-radius: 0.25rem;
+        padding: .5rem 0rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        background-color: #152d97;
+        cursor: pointer;
+    }
+
+    .form-section-item{
+        text-align: center;
+        color: #152d97;
+        font-weight: 700;
+        padding-top: 2rem;
+    }
+
+    .form-section-buttom:active:hover{
+        background-color: #4593d8;
+    }
+
+    .form-section-buttom:hover{
+        background-color: #6ab5f7;
+    }
+
+    .form-section-article{
+        text-align: center;
+        align-items: center;
+        margin-top: 0.6rem;
+    }
+
+    .form-section-article i{
+        margin-top: 0.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        align-items: center;
+        font-size: 1.7rem;
+        color: #12479A;
+    }
+
+    .form-sign-in:visited{
+        color: #12479A;
+    }
+
+    .form-sign-in:link{
+        color: #12479A;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    /* FIN CREATE ACCOUNT - FIN CREAR CUENTA */
+
+    /* INICIO FOOTER - INICIO PIE DE PAGINA */
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #152d97;
+        margin-top: 92px;
+        color: aliceblue;
+        font-size: small;
+    }
+
+    .footer-section-1 p{
+        font-weight: 400;
+        padding: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer-section-2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;   
+    }
+
+    .footer-section-2 a{
+        padding: 1rem;
+    }
+
+    .footer-section-2 a:link{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .footer-section-2 a:visited{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    
+    .footer-section-2 a:active:hover{
+        color: aliceblue;
+        border-bottom: aliceblue solid 1px;
+    }
+
+    .footer-section-2 a:hover{
+        color: aliceblue;
+    }
+
+    /* FIN FOOTER - FIN PIE DE PAGINA */
+
+}

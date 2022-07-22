@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="shortcut icon" href="./img/Logo-Sky-Blue.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/create-account.css">
+    <script src="https://kit.fontawesome.com/5c6424aeaa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-blue">
+            <ul class="container-blue">
+                <li>
+                    <a href="./index.html" class="logo-blue">
+                        <img src="./img/Logo-Sky-Blue-White.png" alt="Logo de Sky Blue">
+                    </a>
+                </li>
+                <label for="menu-toggle-blue"> ☰ </label>
+                <input type="checkbox" id="menu-toggle-blue">
+                <div class="menu-blue">
+                    <li class="item-blue"><a href="">✈️ Vuelos ✈️</a></li>
+                    <li class="item-blue"><a href="">🏖 Destinos 🏖</a></li>
+                    <li class="item-blue"><a href="">🧳 Paquetes 🧳</a></li>
+                    <li class="item-blue"><a href="">🪂 Actividades 🪂</a></li>
+                    <li class="item-blue"><a href="./index.html">⏎ Volver</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section class="form-section">
+        <form action="" class="form-section-box">
+            <h1 class="form-section-title">Bienvenido a Sky Blue!</h1>
+            <p class="form-section-description">Registrá tu cuenta:</p>
+
+            <label for="" class="form-section-label">Nombre:</label>    
+            <input type="text" name="name" placeholder="Nombre" class="form-section-input" required>
+            
+            <label for="" class="form-section-label">Apellido:</label>    
+            <input type="text" name="surname" placeholder="Apellido" class="form-section-input" required>
+
+            <label for="" class="form-section-label">Correo electrónico:</label>    
+            <input type="email" name="mail" placeholder="name@example.com" class="form-section-input" required>
+            
+            <label for="" class="form-section-label">Contraseña:</label>
+            <input type="password" name="password" placeholder="Contraseña" class="form-section-input" required>
+
+            <div class="form-section-input-checkbox">
+                <input type="checkbox" name="terms" id="form-terms"  required>
+                <label for="form-terms" class="form-section-input-terms">
+                Estoy de acuerdo con los <a href="">Términos y Condiciones</a> y acepto la <a href="">Política de Privacidad</a>
+                </label>
+            </div>
+            <div class="form-section-input-checkbox">
+                <input type="checkbox" name="news" id="form-news" required>
+                <label for="form-news" class="form-section-input-terms">
+                Deseo recibir información sobre novedades y ofertas
+                </label>
+            </div>
+            <input type="submit" name="enviar" value="Enviar" class="form-section-buttom">
+            <article class="form-section-article">
+                <p>Iniciar sesión con </p>
+                <a href="" class="form-section-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="form-section-icons">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="" class="form-section-icons">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+            </article>
+            <article class="form-section-article">
+                <p>¿Ya tienes una cuenta?</p>
+                <a href="./sign-in.html" class="form-sign-in">
+                    Inicia sesion desde aqui!
+                </a>
+            </article>
+        </form>
+    </section>
+    <footer>
+        <section class="footer-section-1">
+            <p>2022 © Sky Blue. Todos los derechos reservados
+            </p>
+        </section>
+        <section class="footer-section-2">
+            <a href="">Política de cookies</a>
+            <a href="">Política de privacidad</a>
+            <a href="">Términos y condiciones</a>
+        </section>
+    </footer>
+    
+</body>
+</html>
